@@ -78,6 +78,6 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.10.0'
   gem 'capybara-screenshot'
 end
