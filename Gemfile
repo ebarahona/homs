@@ -26,7 +26,7 @@ gem 'i18n-js', github: 'fnando/i18n-js'
 gem 'twitter-bootstrap-rails-confirm'
 gem 'hbw', path: File.join(File.dirname(__FILE__), 'hbw')
 gem 'asset_symlink'
-gem 'apitome'
+gem 'apitome', '>= 0.1.0'
 gem 'dry-container'
 gem 'dry-auto_inject'
 gem 'dry-validation'
