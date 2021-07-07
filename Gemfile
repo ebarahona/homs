@@ -77,7 +77,7 @@ group :test do
   gem 'temping'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'poltergeist'
-  gem 'capybara-screenshot'
+  gem 'capybara-screenshot', '>= 1.0.12'
 end
