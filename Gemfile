@@ -62,7 +62,7 @@ group :development, :test, :staging do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'rspec_api_documentation', '~> 4.4'
-  gem 'raddocs', '~> 0.4'
+  gem 'raddocs', '~> 2.0', '>= 2.0.0'
   gem 'rubocop'
   gem 'debbie'
   gem 'pry-byebug'
