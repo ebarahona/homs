@@ -56,7 +56,7 @@ end
 group :development, :test, :staging do
   gem 'factory_girl_rails'
   gem 'faker'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'rspec-mocks'
   gem 'translit'
   gem 'web-console', '~> 2.0'
