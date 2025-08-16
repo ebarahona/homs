@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.2.4'
-gem 'rails', '~> 4.2.1'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
@@ -18,7 +18,7 @@ gem 'simple_form'
 gem 'momentjs-rails', '>= 2.9.0'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.7.14'
 gem 'modulejs-rails'
-gem 'react-rails', '~> 1.0'
+gem 'react-rails', '~> 1.3', '>= 1.3.2'
 gem 'font-awesome-rails'
 gem 'bootswatch-rails'
 gem 'pry-rails'
@@ -74,7 +74,7 @@ group :production, :staging do
 end
 
 group :test do
-  gem 'temping'
+  gem 'temping', '>= 3.3.1'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
